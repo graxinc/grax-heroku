@@ -1,0 +1,12 @@
+{
+  "name": "GRAX",
+  "description": "GRAX Backup, Archive, and Restore for Salesforce",
+  "repository": "https://github.com/graxinc/grax-heroku.git",
+  "website": "https://grax.com",
+  "keywords": ["grax", "grax.com", "salesforce", "S3"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-inline"
+    }
+  ]
+}
