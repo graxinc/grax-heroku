@@ -8,5 +8,11 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-inline"
     }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "as": "DATABASE"
+    }
   ]
 }
