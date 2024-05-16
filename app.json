@@ -14,5 +14,19 @@
       "plan": "heroku-postgresql",
       "as": "DATABASE"
     }
-  ]
+  ],
+  "env": {
+    "SECRET_STORE_BASE": {
+      "required": true,
+      "generator": "secret"
+    },
+    "SELFSIGNEDCERT": {
+      "required": true,
+      "value": "0"
+    },
+    "GRAX_TEMPLATE_VERSION": {
+      "required": true,
+      "value": "heroku:v1.0.0"
+    }
+  }
 }
