@@ -13,6 +13,13 @@
     {
       "plan": "heroku-postgresql",
       "as": "DATABASE"
+    },
+    {
+      "plan": "grax"
+    },
+    {
+      "plan": "bucketeer",
+      "as": "S3"
     }
   ],
   "env": {
