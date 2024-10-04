@@ -9,6 +9,9 @@
       "url": "https://github.com/heroku/heroku-buildpack-inline"
     }
   ],
+  "scripts": {
+    "postdeploy": "./bin/post-deploy.sh"
+  },
   "addons": [
     {
       "plan": "heroku-postgresql",
